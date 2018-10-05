@@ -1,4 +1,4 @@
-import { Ingredient } from "../shared/ingredient.model";
+import { Ingredient } from '../shared/ingredient.model';
 
 
 export  class Recipe {
@@ -12,6 +12,6 @@ export  class Recipe {
     this.description = desc;
     this.imagePath = imagePath;
     this.ingredients = ingredients;
-    
+
   }
 }
